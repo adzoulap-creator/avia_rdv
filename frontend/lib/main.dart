@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'conversationIa.dart';
+import 'screens/accueil.dart';
 
 void main(){
   runApp(Avia());
@@ -12,7 +12,7 @@ class Avia extends StatelessWidget{
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ConversationIa(),
+      home: HeroSection(),
     );
   }
 }

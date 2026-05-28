@@ -142,5 +142,125 @@
     {
         "question": "que contienne mes table et liste les stp",
         "reponse": "Tu as 4 tables dans ta base de données : \n\n1. 'utilisateur' qui contient des informations sur les utilisateurs\n2. 'sqlite_sequence' qui est une table système de SQLite\n3. 'client' qui contient des informations sur les clients\n4. 'rdv' qui contient des informations sur les rendez-vous."
+    },
+    {
+        "question": "salut",
+        "reponse": "Salut ! Comment puis-je vous aider aujourd'hui ?"
+    },
+    {
+        "question": "j'aimerais que tu chang ma base de donnees on remplacons les colonnes de ma table utilisateur par ces quatre colonne id, nom complet, email, et password",
+        "reponse": "Pour modifier la structure de votre table \"utilisateur\" en remplaçant les colonnes existantes par les quatre colonnes que vous avez spécifiées (id, nom complet, email, et password), je devrais générer du SQL. Cependant, comme je ne suis pas certain si cela correspond exactement à votre demande, je vais vous donner une réponse normale. Vous pouvez utiliser l'instruction SQL \"ALTER TABLE\" pour ajouter ou supprimer des colonnes, mais pour remplacer complètement les colonnes existantes, il est généralement plus sûr de créer une nouvelle table avec la structure désirée, de copier les données pertinentes de l'ancienne table vers la nouvelle, puis de renommer ou supprimer l'ancienne table. \n\nCependant, puisque vous demandez spécifiquement de modifier la table \"utilisateur\" en insérant les colonnes \"id\", \"nom complet\", \"email\" et \"password\", si la table est actuellement vide ou si vous êtes prêt à perdre les données existantes, vous pourriez utiliser une instruction SQL pour supprimer la table et la recréer ou pour modifier directement la structure de la table si cela est possible sans perdre de données. \n\nPour plus de précision et pour éviter toute perte de données, il serait préférable de fournir plus de détails sur la structure actuelle de la table \"utilisateur\" et sur les contraintes de données (comme les clés primaires, les indexes, etc.) qui pourraient affecter la façon dont les modifications devraient être effectuées. \n\nSi vous êtes certain de vouloir procéder avec la modification de la table en remplaçant les colonnes par \"id\", \"nom complet\", \"email\" et \"password\", vous pourriez utiliser une séquence d'instructions SQL, mais comme mentionné, il est crucial de considérer les implications sur les données existantes et la structure globale de votre base de données."
+    },
+    {
+        "question": "elle contient trois colonne id nom et email donc tu vas juste ajouter le password",
+        "reponse": "Il n'y a aucun résultat dans ta base de données. Tu as la possibilité d'ajouter le password comme quatrième colonne en plus de id, nom et email qui existent déjà."
+    },
+    {
+        "question": "vas y ajoute",
+        "reponse": "Erreur base de données : duplicate column name: password"
+    },
+    {
+        "question": "ajoute la password comme colonne",
+        "reponse": "Erreur base de données : duplicate column name: password"
+    },
+    {
+        "question": "salut",
+        "reponse": "Salut ! Comment puis-je vous aider aujourd'hui ?"
+    },
+    {
+        "question": "salut",
+        "reponse": "Salut ! Comment puis-je vous aider aujourd'hui ?"
+    },
+    {
+        "question": "j'ai combien de table dans ma base de donnee",
+        "reponse": "C'est un succès. La requête a compté le nombre de tables dans la base de données et a trouvé 2 tables."
+    },
+    {
+        "question": "salut",
+        "reponse": "Salut ! Comment puis-je vous aider aujourd'hui ?"
+    },
+    {
+        "question": "qui es-tu",
+        "reponse": "Je suis Avia, un assistant intelligent connecté à une base SQLite."
+    },
+    {
+        "question": "qui à creeer",
+        "reponse": "Je suis un modèle de langage développé par Google."
+    },
+    {
+        "question": "c'est par plamedie",
+        "reponse": "Je ne suis pas sûr de comprendre votre question. Pourriez-vous la reformuler ?"
+    },
+    {
+        "question": "dit moi j'ai combien de table dans ma base",
+        "reponse": "```json\n{\n  \"type\": \"SQL\",\n  \"query\": \"SELECT count(*) FROM sqlite_master WHERE type = 'table';\"\n}\n```"
+    },
+    {
+        "question": "salut",
+        "reponse": "Salut ! Comment puis-je vous assister aujourd'hui ?"
+    },
+    {
+        "question": "j'ai combien de table actuellement",
+        "reponse": "```json\n{\n  \"type\": \"SQL\",\n  \"query\": \"SELECT count(*) FROM sqlite_master WHERE type = 'table';\"\n}\n```"
+    },
+    {
+        "question": "traduit moi ca stp ",
+        "reponse": "Bien sûr, je suis à votre entière disposition pour vous aider avec la traduction. Pourriez-vous me fournir le texte que vous souhaitez traduire ? Je ferai de mon mieux pour vous assister."
+    },
+    {
+        "question": "traduit moi le nom de table que j'ai",
+        "reponse": "Très cher Monsieur/Madame, je peux bien sûr vous fournir la liste des noms de toutes les tables présentes dans votre base de données. Cependant, ma fonction principale est la gestion et l'extraction d'informations de la base de données, et je ne suis pas en mesure de réaliser des traductions linguistiques pour ces noms.\n\nSouhaitez-vous que je vous affiche la liste des noms de tables ?"
+    },
+    {
+        "question": "liste mes table",
+        "reponse": "```json\n{\n  \"type\": \"SQL\",\n  \"query\": \"SELECT name FROM sqlite_master WHERE type = 'table';\"\n}\n```"
+    },
+    {
+        "question": "est ce que j'ai une utilisateur ",
+        "reponse": "```json\n{\n  \"type\": \"SQL\",\n  \"query\": \"SELECT COUNT(*) FROM users;\"\n}\n```"
+    },
+    {
+        "question": "salut",
+        "reponse": "Salut ! Comment puis-je vous assister aujourd'hui ?"
+    },
+    {
+        "question": "comment vas-tu",
+        "reponse": "Je vous remercie de vous soucier de mon bien-être ! En tant qu'assistant numérique, je n'ai pas d'émotions ni de sensations, mais je suis parfaitement opérationnel et prêt à vous aider avec la gestion de votre base de données.\n\nComment puis-je vous être utile aujourd'hui ?"
+    },
+    {
+        "question": "salut",
+        "reponse": "Salut ! Comment puis-je vous assister aujourd'hui ?"
+    },
+    {
+        "question": "comment",
+        "reponse": "Bonjour ! Pourriez-vous préciser votre question ? Je suis là pour vous aider, mais j'ai besoin de comprendre ce que vous souhaitez savoir ou faire."
+    },
+    {
+        "question": "comment vas-tu",
+        "reponse": "Je vous remercie de vous soucier de mon bien-être ! En tant qu'assistant numérique, je n'ai pas d'émotions ni de sensations, mais je suis parfaitement opérationnel et prêt à vous aider avec la gestion de votre base de données.\n\nComment puis-je vous être utile aujourd'hui ?"
+    },
+    {
+        "question": "j'ai combien de table dans ma base de donnee",
+        "reponse": "Bonjour !\n\nVotre base de données contient actuellement 2 tables.\n\nN'hésitez pas si vous avez d'autres questions !"
+    },
+    {
+        "question": "est ce que j'ai des donnees dans ms table",
+        "reponse": "Pour vérifier si vos tables contiennent des données, je dois d'abord connaître leurs noms.\n\nSouhaitez-vous que je vous liste toutes les tables de votre base de données afin que nous puissions ensuite vérifier leur contenu ?"
+    },
+    {
+        "question": "oui faais-le",
+        "reponse": "Votre base de données contient actuellement 2 tables : `utilisateur` et `sqlite_sequence`."
+    },
+    {
+        "question": "j'ai des donnees dans uilisateur",
+        "reponse": "Bonjour ! J'ai bien vérifié la table \"utilisateur\" pour vous. Je peux vous confirmer qu'il y a actuellement 1 utilisateur enregistré dans votre base de données."
+    },
+    {
+        "question": "c'est qui",
+        "reponse": "J'ai trouvé une personne enregistrée dans votre base de données d'utilisateurs.\n\nVoici les détails de l'utilisateur que j'ai pu identifier :\n*   **Identifiant :** 1\n*   **Nom d'utilisateur :** lumiere\n*   **Adresse e-mail :** lumiere@gmail.com\n*   **Code associé :** 125487\n\nJ'espère que ces informations vous sont utiles !"
+    },
+    {
+        "question": "oui merci",
+        "reponse": "De rien ! Je suis ravi d'avoir pu vous aider.\n\nN'hésitez pas si vous avez d'autres questions ou si vous souhaitez effectuer d'autres opérations sur votre base de données. Je suis là pour ça !"
     }
 ]
